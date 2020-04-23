@@ -24,10 +24,12 @@ const routers = {
   login: LOGIN,
   logout: LOGOUT,
   search: SEARCH,
+ 
   users: USERS,
   usersDetail: USER_DETAIL,
   editProfile: EDIT_PROFILE,
   changePassword: CHANGE_PASSWORD,
+ 
   videos: VIDEOS,
   upload: UPLOAD,
   videoDetail: VIDEO_DETAIL,
