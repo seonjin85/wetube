@@ -18,18 +18,18 @@ const VIDEO_DETAIL = "/:id";
 const EDIT_VIDEO = "/:id/edit";
 const DELETE_VIDEO = "/:id/delete";
 
-const routers = {
+const routes = {
   home: HOME,
   join: JOIN,
   login: LOGIN,
   logout: LOGOUT,
   search: SEARCH,
- 
+
   users: USERS,
-  usersDetail: USER_DETAIL,
+  userDetail: USER_DETAIL,
   editProfile: EDIT_PROFILE,
   changePassword: CHANGE_PASSWORD,
- 
+
   videos: VIDEOS,
   upload: UPLOAD,
   videoDetail: VIDEO_DETAIL,
@@ -37,5 +37,4 @@ const routers = {
   deleteVideo: DELETE_VIDEO,
 };
 
-
-export default routers;
+export default routes;
