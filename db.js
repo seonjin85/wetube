@@ -4,7 +4,7 @@ export const videos = [
     title: "Vidoe awesome",
     description: "This is something i love",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
     creator: {
       id: 121212,
       name: "Seonjin",
@@ -16,7 +16,7 @@ export const videos = [
     title: "Vidoe super",
     description: "This is something i love",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
     creator: {
       id: 121212,
       name: "Seonjin",
@@ -28,7 +28,7 @@ export const videos = [
     title: "Vidoe nice",
     description: "This is something i love",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
     creator: {
       id: 121212,
       name: "Seonjin",
@@ -40,7 +40,7 @@ export const videos = [
     title: "Vidoe perfect",
     description: "This is something i love",
     views: 24,
-    videoFile: "https://archive.org/details/BigBuckBunny_124",
+    videoFile: "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
     creator: {
       id: 121212,
       name: "Seonjin",
