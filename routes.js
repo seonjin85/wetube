@@ -20,7 +20,7 @@ const DELETE_VIDEO = "/:id/delete";
 
 const routes = {
   home: HOME,
-  join: JOIN,
+  join: JOIN,  
   login: LOGIN,
   logout: LOGOUT,
   search: SEARCH,
