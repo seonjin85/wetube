@@ -1,4 +1,5 @@
 import { videos } from "../db";
+import routes from "../routes";
 
 export const home = (req, res) => {
   res.render("home", { pageTitle: "Home", videos });
@@ -12,8 +13,17 @@ export const search = (req, res) => {
   res.render("search", { pageTitle: "search", searchingBy, videos });
 };
 
-export const upload = (req, res) =>
+export const getUpload = (req, res) =>
   res.render("upload", { pageTitle: "upload" });
+
+export const postUpload = (req, res) => {
+  const {
+    body: { file, title, description },
+  } = req;
+
+  //To Do: upload and save video
+  res.redirect(routes.videoDetail(123));
+};
 
 export const videoDetail = (req, res) =>
   res.render("videoDetail", { pageTitle: "video Detail" });
