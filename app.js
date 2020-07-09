@@ -14,6 +14,7 @@ const app = express();
 
 app.use(helmet());
 app.set("view engine", "pug");
+app.use("/uploads", express.static("uploads"));
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -22,7 +23,7 @@ app.use(morgan("dev"));
 app.use(localsMiddleware);
 
 app.use(routes.home, globalRouter); //const HOME = "/";
-app.use(routes.users, userRouter);  //const USERS = "/users";
-app.use(routes.videos, videoRouter);//const VIDEOS = "/videos";
+app.use(routes.users, userRouter); //const USERS = "/users";
+app.use(routes.videos, videoRouter); //const VIDEOS = "/videos";
 
 export default app;
