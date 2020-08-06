@@ -115,4 +115,5 @@ dist
 .pnp.*
 
 package-lock.json
-uploadsx
+uploads
+static
